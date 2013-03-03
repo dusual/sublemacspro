@@ -209,5 +209,10 @@
     { "key": "auto_complete_visible", "operand": false },
     { "key": "has_next_field", "operand": false },
     { "key": "overlay_visible", "operand": false }]
-  }
+  },
+  // Alt-X for command pallete
+
+   { "keys": ["alt+x"], "command": "show_overlay", "args": {"overlay": "command_palette"} }
+
+
 ]
